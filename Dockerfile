@@ -3,7 +3,7 @@ ENV KUSTOMIZE_VER 1.0.4
 ENV KUBECTL_VER 1.11.1
 ENV HEPTIO_VER 0.3.0
 
-RUN apk --no-cache add curl gettext
+RUN apk --no-cache add curl gettext bash
 
 RUN mkdir /working
 WORKDIR /working
